@@ -8,14 +8,14 @@ const T_KIER = 'ok. 1,5 godziny', T_OPER = '30-45 minut', T_INNE = 'podamy przy 
 
 const GRUPY = [
   { nazwa: 'Kierowcy', opcje: [
-    { id: 'zaw', kto: 'Kierowca zawodowy (np. kat. C, C+E, D)', badanie: 'Badanie psychologiczne kierowcy zawodowego', cena: 150, czas: T_KIER, zab: ZABIERZ_KIER },
+    { id: 'zaw', kto: 'Kierowca zawodowy (np. kat. C, C+E, D)', badanie: 'Badanie psychologiczne kierowcy zawodowego', cena: 150, czas: T_KIER, zab: ZABIERZ_KIER },
     { id: 'kand', kto: 'Kandydat na kierowcę lub kurs na przewóz rzeczy i osób', badanie: 'Badanie psychologiczne kandydata na kierowcę', cena: 150, czas: T_KIER, zab: ZABIERZ_KIER },
     { id: 'instr', kto: 'Instruktor lub egzaminator nauki jazdy', badanie: 'Badanie psychologiczne instruktora i egzaminatora', cena: 150, czas: T_KIER, zab: ZABIERZ_KIER },
     { id: 'taxi', kto: 'Kierowca taksówki', badanie: 'Badanie psychologiczne kierowcy taxi', cena: 150, czas: T_KIER, zab: ZABIERZ_KIER },
     { id: 'upr', kto: 'Pojazd uprzywilejowany lub przewóz wartości pieniężnych', badanie: 'Badanie psychologiczne kierowcy pojazdu uprzywilejowanego / przewożącego wartości pieniężne', cena: 150, czas: T_KIER, zab: ZABIERZ_KIER },
     { id: 'zatrz', kto: 'Zatrzymane prawo jazdy (alkohol, środki odurzające, punkty karne)', badanie: 'Badanie psychologiczne po zatrzymaniu prawa jazdy', cena: 150, czas: T_KIER, zab: ZABIERZ_SKIER, uwaga: UWAGA_30 },
     { id: 'wyp', kto: 'Sprawca wypadku drogowego', badanie: 'Badanie psychologiczne kierowcy sprawcy wypadku', cena: 150, czas: T_KIER, zab: ZABIERZ_SKIER, uwaga: UWAGA_30 },
-    { id: 'sluzb', kto: 'Kierowca samochodu służbowego kat. B', badanie: 'Badanie psychologiczne kierowcy samochodu służbowego', cena: 100, czas: T_INNE, zab: ['prawo jazdy', 'dowód osobisty', 'skierowanie od pracodawcy, jeśli je masz', 'okulary, jeśli ich używasz'] },
+    { id: 'sluzb', kto: 'Kierowca samochodu służbowego kat. B', badanie: 'Badanie psychologiczne kierowcy samochodu służbowego', cena: 100, czas: T_INNE, zab: ['prawo jazdy', 'dowód osobisty', 'skierowanie od pracodawcy, jeśli je masz', 'okulary, jeśli ich używasz'] },
   ]},
   { nazwa: 'Operatorzy maszyn i praca', opcje: [
     { id: 'wozek', kto: 'Operator wózka widłowego', badanie: 'Badanie psychologiczne kierowcy wózka jezdniowego', cena: 80, czas: T_OPER, zab: ZABIERZ_PRAC },

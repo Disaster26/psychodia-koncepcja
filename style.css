@@ -84,7 +84,7 @@ section{padding:clamp(56px,8vw,104px) 0}
   .hero-sciezki b{font-size:1.3rem}
   .hero-sciezki span{font-size:1rem}
 }
-.hero h1{font-size:clamp(2.3rem,3.9vw,3.5rem);line-height:1.1;margin-bottom:.45em;color:#f6f2e9}
+.hero h1{font-size:clamp(2.3rem,3.6vw,3.3rem);line-height:1.1;margin-bottom:.45em;color:#f6f2e9}
 .lead{font-size:clamp(1.05rem,1.35vw,1.22rem);color:var(--on-d2);line-height:1.55;margin-bottom:1.8em}
 .hero-cta{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
 .hero-info{color:var(--on-d2);font-size:.95rem}
